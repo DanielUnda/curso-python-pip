@@ -1,5 +1,6 @@
 import requests
 
+
 def get_catehories():
     r=requests.get('https://api.escuelajs.co/api/v1/categories')
     print(r.status_code)
